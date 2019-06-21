@@ -11,3 +11,6 @@ deploy:
   provider: heroku
   api_key:
     secure: "vMf6Gg/KA/SNaLuCdFwNpxApDUt+GNQDLsfKnxcL/xoz8xYvx9hMtOU0viDOwkXO5BugFHqGOmOTGjheqb9hsIHOorOqGeWXGaZrGGYCqeDnBz4iPiwIAz4lH5oq8MMCSjveXGWmzpQr62AjRcJWEabB4Pean3AFlH8TOOcoPst7XxSc5iyXb4SESEi7ICW5IU+rKGrw7dl6R0pgwUo8pwfFQRl8dtpyzC2s/2KKH8Q8JoeT7/b06FqrNmGt4FNYooXRU3pJ8b7vLQdOsRQYPgA9Te1yPEdn9kaYrAy0AnM1rw7cwgVZWfCs//4+kbCGlIS9bPaIrVAQGlQ4Zsv2GVoBanQQ5my/1V1TsgQkvUM1sQtDDmFhfDKcC6Rn4/2CEKNkzPUyYxEehtTTqEsoifQAgF/oyI3WLudW/UkCbf5TOaGr+i8P4SImBOsdtiB8psHhZ4umszyL3OSkMNMGtHGiIqLzmuhwblbCkqskr1tUOAVG6SGMYvw/dbIwDgPCAog/w5ew0nFMpVkn6luUYHsa7CnPpWO/8fWn/yXbkD00ikVEGw7PhjpIljJ1r5KcJeF4251gIbKgr9jrhvGZmi00YX3FrFKpGJbnrKs0/6UkMI+SXAyreBWpDSFU6t7dxaPZSH5GvmWxTGafL9vPq//x8uW77vM405JRMin72ew="
+  app: morning-sea-40223
+  on:
+    repo: newbazz/ci-cd-tutorial-sample-app
