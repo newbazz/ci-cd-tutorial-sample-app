@@ -1,17 +1,13 @@
 language: python
 python:
-  - "3.6"
-# command to install dependencies
+- '3.6'
 install:
-  - pip install -r requirements.txt
-  - flask db upgrade
-  - python seed.py
-# command to run tests
+- pip install -r requirements.txt
+- flask db upgrade
+- python seed.py
 script:
-  - python -m unittest discover
+- python -m unittest discover
 deploy:
   provider: heroku
   api_key:
     secure: "299f0b34-e803-438c-887d-daddc5ab8ba2"
-
-
